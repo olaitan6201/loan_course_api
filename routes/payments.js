@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 
-const paymentModel = require('../models/payments.model');
+const paymentModel = require('../models/payments.model.ts');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {

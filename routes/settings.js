@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 
-const auditModel = require('../models/audits.model');
+const auditModel = require('../models/audit.model.ts');
 
 
 /* GET users listing. */

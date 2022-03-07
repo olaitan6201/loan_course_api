@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router();
 
 
-const userModel = require('../models/users.model');
+const userModel = require('../models/users.model.ts');
 
 
 /* GET users listing. */

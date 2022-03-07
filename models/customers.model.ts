@@ -5,7 +5,8 @@ const customerSchema = mongoose.Schema({
     lastName: String,
     emailAddress: String,
     phoneNumber: String,
-    dob: String
+    dob: String,
+    department: String
 });
 
 const customerModel = mongoose.model('Customers', customerSchema);
