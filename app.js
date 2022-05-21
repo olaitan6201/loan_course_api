@@ -7,7 +7,14 @@ var logger = require('morgan');
 var cors = require('cors');
 
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/LoansCourse');
+// mongoose.connect('mongodb://localhost/LoansCourse');
+mongoose.connect('mongodb+srv://developer_habeeb:4AGuuAKvJBvPZ@cluster0.hlc4c.mongodb.net/loans-course?retryWrites=true&w=majority')
+.then(()=>{
+  console.log('Connected to database');
+})
+.catch((err)=>{
+  console.log('Connection failed : '+err);
+});
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
