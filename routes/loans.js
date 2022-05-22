@@ -3,7 +3,7 @@ var router = express.Router();
 
 
 const loanModel = require('../models/loans.model.ts');
-const customerModel = require('../models/customers.model.ts');
+// const customerModel = require('../models/customers.model.ts');
 
 
 /* GET loans listing. */

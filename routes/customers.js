@@ -3,7 +3,7 @@ var router = express.Router();
 
 const customerModel = require('../models/customers.model.ts');
 
-var mongoose = require('mongoose');
+// var mongoose = require('mongoose');
 
 /* GET All Customers. */
 // router.get('/list', function(req, res, next) {

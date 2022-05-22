@@ -3,7 +3,7 @@ var router = express.Router();
 
 const loanTypeModel = require('../models/loan_types.model.ts');
 
-var mongoose = require('mongoose');
+// var mongoose = require('mongoose');
 
 /* GET All loanTypes. */
 router.get('/list', function(req, res, next) {
