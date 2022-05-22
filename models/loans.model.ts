@@ -1,6 +1,6 @@
-const mongoose = require('mongoose');
+const loanMongoose = require('mongoose');
 
-const loanSchema = mongoose.Schema({
+const loanSchema = loanMongoose.Schema({
     loanName: String,
     loanType: String,
     loanAmount: Number,
@@ -15,6 +15,6 @@ const loanSchema = mongoose.Schema({
     }
 });
 
-const loanModel = mongoose.model('Loans', loanSchema);
+const loanModel = loanMongoose.model('Loans', loanSchema);
 
 module.exports = loanModel;

@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-
+// const mongoose = require('mongoose');
 const customerModel = require('../models/customers.model.ts');
 const loanModel = require('../models/loans.model.ts');
 let resdata = {
